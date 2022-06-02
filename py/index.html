@@ -15,7 +15,7 @@
 
 <body>
     <h2>Olá!</h2> <br>
-    <h3>Digite as horas trabalhadas na caixa, o resultado será mostrado abaixo:</h3>
+    <h3>O resultado será mostrado abaixo:</h3>
     <py-script>
         '''Timesheet calc'''
         from datetime import datetime
@@ -24,8 +24,8 @@
         TOTAL_TIME = '08:00'
 
 
-        worked_time = input('Total de horas: ')
-        print('Total de horas registradas: ', worked_time)
+        worked_time = input()
+        print(f'Total de horas registradas: {worked_time})
 
         FORMAT_H = '%H:%M'
 
