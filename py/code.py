@@ -5,8 +5,7 @@ from datetime import datetime
 TOTAL_TIME = '08:00'
 
 
-worked_time = input(
-    'Digite o total de horas registradas em tasks do dia (00:00): ')
+worked_time = input('')
 # print(worked_time)
 
 FORMAT_H = '%H:%M'
